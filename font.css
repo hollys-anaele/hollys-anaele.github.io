@@ -1,8 +1,23 @@
 body{
 	font-family:sans-serif;
-	background-color: lightgreen;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	background-color: lightblue;
+	height:5000px;
 }
 
+h1 {
+	border: 5px solid red;
+	padding: 10px;
+	margin-left:40px;
+}
+
+img{
+	border:5px solid red;
+}
 #summary{
-	color: purple;
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	width: 200px;
+	height: 100px;
 }
